@@ -7,7 +7,7 @@ namespace runtime
         unsigned long factorial(int n);
     }
 
-    namespace functional
+    namespace recursive
     {
         unsigned long factorial(int n);
     }

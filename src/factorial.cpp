@@ -21,7 +21,7 @@ namespace runtime
         }
     }
 
-    namespace functional
+    namespace recursive
     {
         unsigned long factorial(int n)
         {

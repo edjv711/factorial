@@ -18,8 +18,8 @@ void testFactorial(std::function<unsigned long(int)> factorial_impl)
 int main()
 {
     testFactorial(runtime::iterative::factorial);
+    testFactorial(runtime::recursive::factorial);
     testFactorial(runtime::stl_algo::factorial);
-    testFactorial(runtime::functional::factorial);
     testFactorial(compiletime::factorial);
 
     return 0;
